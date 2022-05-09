@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "937449233855",
+    "project_id": "bonku-video-player",
+    "storage_bucket": "bonku-video-player.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937449233855:android:9719ed476eca3f8c8e150a",
+        "android_client_info": {
+          "package_name": "com.shubhankaranku.bonkuvideoplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937449233855-bij8odiodneofl36bfpdl6vkcsu61v91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsg6IuU3jFsM12bEFTxmJUvE0BX6FMffM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937449233855-bij8odiodneofl36bfpdl6vkcsu61v91.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

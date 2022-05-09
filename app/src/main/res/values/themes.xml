@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BonkuVideoPlayer" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#FFBB1E</item>
+        <item name="colorPrimaryVariant">#F3CD00</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#FFBB1E</item>
+        <item name="colorSecondaryVariant">#F3CD00</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">#F3A900</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

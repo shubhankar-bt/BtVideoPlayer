@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".AddVideoActivity">
+
+
+    <!--videoView-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:cardCornerRadius="5dp"
+        android:padding="5dp"
+        android:id="@+id/videoholder"
+        android:layout_marginTop="20dp"
+        app:cardElevation="5dp">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="30dp"
+        android:id="@+id/titleEdLay"
+        android:layout_width="match_parent"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:helperTextTextColor="@android:color/holo_red_dark"
+        app:helperText="Required*"
+        android:layout_below="@+id/videoholder"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/titleVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName|textCapSentences"
+            android:hint="Enter Title"
+            android:textColor="@color/black"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--Video upload Button-->
+    <Button
+        android:id="@+id/uploadVideoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleEdLay"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/white"
+        android:text="Upload Video"
+        />
+
+    <!--Video pickup Button-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/pickVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="14dp"
+        android:src="@drawable/ic_baseline_video_library"/>
+
+
+</RelativeLayout>
